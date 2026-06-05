@@ -1,4 +1,4 @@
-<h1 align="center">Matrix Transformation Visualizer</h1>
+<h1 align="center">Vector Transformation Visualizer</h1>
 An interactive C++ project built with SFML that allows users to explore and understand 2D linear transformations visually and intuitively. <br>
 This project combines the power of object-oriented programming with graphical rendering to animate how matrices transform vectors in a 2D coordinate space.
 
