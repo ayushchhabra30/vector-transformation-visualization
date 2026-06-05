@@ -1,134 +1,108 @@
-<h1 align="center">Vector Visualizations 🪄</h1>
+<h1 align="center">Matrix Transformation Visualizer</h1>
+An interactive C++ project built with SFML that allows users to explore and understand 2D linear transformations visually and intuitively. <br>
+This project combines the power of object-oriented programming with graphical rendering to animate how matrices transform vectors in a 2D coordinate space.
 
-<p>A C++ project built with SFML that visually demonstrates 2D vector and matrix transformations. 
-  The interface renders a coordinate grid where users can interactively </p>
-  
-- Add and modify vectors
-- Apply transformation matrices such as:
-  - 🪄 Rotation
-  - 🪄 Scaling
-  - 🪄 Shearing
-  - 🪄 Reflection
-  - 🪄 Matrix Addition
-  - 🪄 Matrix Subtraction
-  - 🪄 Matrix Projection
-- See real-time graphical feedback as transformations are applied.
-- Maintain a memory stack of the operations performed!
+---
+## 🌟 Key Features
+### 1️. Core Matrix Operations:
+ - Matrix Creation & Input
+ - Transformations with OOP:
+  -  ✨ Rotation
+  -  ✨ Scaling
+  -  ✨ Shearing
+  -  ✨ Reflection
+  -  ✨ Matrix Addition
+  -  ✨ Matrix Subtraction
+  -  ✨ Matrix Projection
+    
+### 2. Graphical Visualization (via SFML): 
+- Grid and Axes Renderer
+- Vector Drawing
+- Dynamic Input Panel
+- Interactive Keyboard Control
+### 3. See real-time graphical feedback as transformations are applied.
+### 4. Maintain a memory stack of the operations performed
+---
 
-
-<p>This project bridges the gap between numerical operations and spatial intuition, allowing transformations to be seen and understood dynamically.</p>
-<p>Each operation updates the visuals in real time, offering clear insight into how mathematical changes affect geometric vectors.</p>
-
-***With a clean layout, responsive visuals, and smooth interactions, this tool makes linear transformations both functional and visually expressive.***
-
-<h1 align="center"> Visual Demo Board 🖥️</h1>
-
+## Visual Demo 🖥️
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/85d38156-280b-48d3-8d6b-198047172bb3" width="200" alt="Initial Grid with Vectors"/>
+  <img src="https://github.com/user-attachments/assets/b7fd8432-1ca8-47d8-bb4e-2ff379978e92" width="200" alt="Initial Grid with Vectors"/>
   <br/>
-  <em>💟 Controls Tab </em>
+  <em><strong>⚙️ CONTROLS TAB :</strong> Quick-access guide for all transformations and key shortcuts.</em>
 </div>
-
 </br>
-
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/a9cb3803-c967-43b5-8fcd-434c3472bf2e" width="400" alt="Initial Grid with Vectors"/>
+  <img src="https://github.com/user-attachments/assets/e4a9a2ed-4513-41c0-8505-fa38c1572e3c" width="400" alt="Initial Grid with Vectors"/>
   <br/>
-  <em>📝 Input Pannel </em>
+  <em><strong>📝 INPUT PANEL :</strong> Enter vectors and matrices - see them come alive on the grid instantly.</em>  
 </div>
-
 </br>
-
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/d4fc87ba-d493-466d-902a-8f17edc36b52" width="400" alt="Initial Grid with Vectors"/>
-  <img src="https://github.com/user-attachments/assets/72531e9b-0e34-4085-a162-4a996c546e0f" width="400" alt="Initial Grid with Vectors"/>
+  <img src="https://github.com/user-attachments/assets/27e06d6a-3bcd-4b45-82b5-6f8be8409427" width="400" alt="Initial Grid with Vectors"/>
+  <img src="https://github.com/user-attachments/assets/56dbdce4-dd2e-4b16-8223-c3589797ac4b" width="400" alt="Initial Grid with Vectors"/>
   <br/>
-  <em>👩🏻‍💻 Help Pannel </em>
+  <em><strong>💡 HELP PANEL :</strong> Need a hint? This section gives real-time tips and input formats to guide you.</em>
 </div>
-
 </br>
-
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/026736df-44a9-4ac8-8505-1bd11574457c" width="600" alt="Initial Grid with Vectors"/>
+  <img src="https://github.com/user-attachments/assets/e3c5c5d2-d1c5-4324-abbc-79e5899cec4e" width="600" alt="Initial Grid with Vectors"/>
   <br/>
-  <em>🧭 Grid Panel: your vector playground</em>
+  <em><strong>🎯 GRID PANEL :</strong> Your interactive vector playground - draw, transform, and explore in real time!</em>
 </div>
+<br/>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/e341df6c-b562-4bb5-9c94-527662c6d547" width="600" alt="Adding vectors"/>
+  <br/>
+  <em> <strong>INPUT VECTORS :</strong> X & Y values</em>
+</div>
+<br/>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/d62b0eb9-7a02-4f95-848f-af59a02d0887" width="600" alt="Rotation"/>
+  <br/>
+  <em><strong>🔄 ROTATE :</strong> Spin your vectors smoothly to any desired angle.</em>
+</div>
+<br/>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/94105726-6b70-4a7e-b5f0-31ecec3945fb" width="600" alt="Shearing"/>
+  <br/>
+  <em><strong>🍥 SHEAR :</strong> Skew your shapes horizontally or vertically with ease.</em> 
+</div>
+<br/>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f8d9f461-53ae-48ac-9fcf-a565ba8f51c2" width="600" alt="Scaling"/>
+  <br/>
+ <em><strong>📏 SCALE :</strong> Stretch or shrink vectors along the X and Y axes.</em>  
+</div>
+<br/>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/540972d6-1aa1-48e3-9be1-047fb768bb39" width="600" alt="Reflection"/>
+  <br/>
+<em><strong>🪞 REFLECT :</strong> Flip your vectors across the X or Y axis like a mirror reflection.</em>  
+</div>
+<br/>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ae4dd7c7-8331-445f-9789-4c76b934bc8d" width="600" alt="Addition"/>
+  <br/>
+  <em><strong>➕ ADDITION :</strong> Combine two vectors instantly and see the resulting direction!</em>  
+</div>
+<br/>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/6769d307-045c-49d0-b4e2-889692a2a2d2" width="600" alt="Subtraction"/>
+  <br/>
+  <em><strong>➖ DIFFERENCE :</strong> Visualize the precise distance and direction between two vectors.</em>  
 
+</div>
+<br/>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/bad97d35-5d7e-415d-8010-1aadd7b71575" width="600" alt="Projection"/>
+  <br/>
+  <em><strong>✖️ PROJECTION:</strong> Instantly project one vector onto another and visualize their alignment.</em>
+</div>
 <br/>
 
-<div align="center">
+---
 
-  <img src="https://github.com/user-attachments/assets/e1cd96b6-c403-4e26-91cd-fe445a40efe9" width="600" alt="Adding vectors"/>
-  <br/>
-  <em>✏️ Input vectors: with X & Y values</em>
-</div>
-
-<br/>
-
-<div align="center">
-
-  <img src="https://github.com/user-attachments/assets/cc0f9590-8397-4c47-ad40-63b2a1c8820e" width="600" alt="Rotation"/>
-  <br/>
-  <em>🔄 Rotate: Spin the vector to any angle you like</em>
-</div>
-
-<br/>
-
-<div align="center">
-
-  <img src="https://github.com/user-attachments/assets/62600388-2988-46bb-bdab-3af766b07be9" width="600" alt="Shearing"/>
-  <br/>
-  <em>🍥 Shear: Skew the shape horizontally or vertically</em>
-</div>
-
-<br/>
-
-<div align="center">
-
-  <img src="https://github.com/user-attachments/assets/97a79651-a82d-440c-9c7b-e3f6e86bb75d" width="600" alt="Scaling"/>
-  <br/>
-  <em>📏 Scale: Stretch or shrink it along X and Y.</em>
-</div>
-
-<br/>
-
-<div align="center">
-
-  <img src="https://github.com/user-attachments/assets/b6c8803d-e2b3-4fac-b036-2a2dc0785e83" width="600" alt="Addition"/>
-  <br/>
-  <em>➕ Addition: add two vectors like a pro!</em>
-</div>
-
-<br/>
-
-<div align="center">
-
-  <img src="https://github.com/user-attachments/assets/33702a51-b7cf-474d-a476-10add76ec8aa" width="600" alt="Subtraction"/>
-  <br/>
-  <em>➖ Difference: between two vectors with one click!</em>
-</div>
-
-<br/>
-
-<div align="center">
-
-  <img src="https://github.com/user-attachments/assets/fdcfe0a2-1f16-449f-a8c3-209c891ccc6e" width="600" alt="Projection"/>
-  <br/>
-  <em>✖️ Projection: of one vector along other quicker than the blink of an eye!</em>
-</div>
-
-<br/>
-
-<div align="center">
-
-  <img src="https://github.com/user-attachments/assets/98e72bb7-bc2e-47a3-b72a-f925fe7554bb" width="600" alt="Reflection"/>
-  <br/>
-  <em>🪞 Reflect: Flip across the X or Y axis like a mirror.</em>
-</div>
-
-<br/>
-
-<h1 align="center"> Set-up, build and run the project 💫</h1>
+ ## Steps to build and run the project 👨‍💻
 
 ### 🍎 macOS
 
@@ -137,8 +111,8 @@
 brew install sfml
 
 # Clone and build
-git clone https://github.com/your-username/vector-visualizer.git
-cd vector-visualizer
+git clone https://github.com/your-username/Matrix-Transformation-Visualizer.git
+cd Matrix-Transformation-Visualizer
 mkdir build && cd build
 cmake ..
 make
@@ -155,8 +129,8 @@ sudo apt update
 sudo apt install libsfml-dev cmake build-essential
 
 # Clone and build
-git clone https://github.com/your-username/vector-visualizer.git
-cd vector-visualizer
+git clone https://github.com/your-username/Matrix-Transformation-Visualizer.git
+cd Matrix-Transformation-Visualizer
 mkdir build && cd build
 cmake ..
 make
@@ -177,7 +151,7 @@ Install Tools:
 Build with PowerShell:
 
 ```powershell
-cd vector-visualizer
+cd Matrix-Transformation-Visualizer
 Remove-Item -Recurse -Force build
 mkdir build
 cd build
@@ -187,4 +161,3 @@ mingw32-make
 # Run the executable: 
 ./matrixSFML.exe
 ```
-
